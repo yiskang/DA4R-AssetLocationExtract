@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>AssetLocationExtract</Name>
+		<FullClassName>Autodesk.Forge.Command</FullClassName>
+		<Text>AssetLocationExtract</Text>
+		<Description>Extract Asset Location to JSON</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\AssetLocationExtract.dll</Assembly>
+		<AddInId>4C39188E-1C55-4B91-8009-813202470E16</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

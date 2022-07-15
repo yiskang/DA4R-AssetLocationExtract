@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="Extract Asset Location Addin" Author="eason.kang@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="forge.help@autodesk.com"/>
+	<Components Description="Extract Asset Location to JSON">
+		<RuntimeRequirements SeriesMax="R2023" SeriesMin="R2022" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Extract Asset Location to JSON" ModuleName="./Contents/AssetLocationExtract.addin" Version="1.0.0" AppName="AssetLocationExtract"/>
+	</Components>
+</ApplicationPackage>
