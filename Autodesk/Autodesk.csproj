@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
+    <Compile Include="Libs\SpaceNode.cs" />
+    <Compile Include="Libs\AssetNode.cs" />
     <Compile Include="Libs\LocationNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

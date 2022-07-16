@@ -16,35 +16,25 @@
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////
 
-using System;
+using System.Collections.Generic;
 
 namespace Autodesk.Forge.Libs
 {
-    /// <summary>
-    /// Location
-    /// </summary>
-    public class LocationNode
+    public class SpaceNode : LocationNode
     {
-        public LocationNode()
+        public SpaceNode() : base()
         {
-            this.Id = Guid.NewGuid().ToString();
+            this.Children = new List<LocationNode>();
         }
 
         /// <summary>
-        /// Node id
+        /// Node Level
         /// </summary>
-        public string Id { get; set; }
+        public string Level { get; set; }
+
         /// <summary>
-        /// Node Category
+        /// The list of child location
         /// </summary>
-        public string Category { get; set; }
-        /// <summary>
-        /// Node Type
-        /// </summary>
-        public string Type { get; set; }
-        /// <summary>
-        /// Node name
-        /// </summary>
-        public string Name { get; set; }
+        public List<LocationNode> Children { get; set; }
     }
 }

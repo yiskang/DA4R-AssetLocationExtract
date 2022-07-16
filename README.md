@@ -17,6 +17,7 @@ This addin will extract MEP elements basic info by where the room they belong to
   "id": "e1d4bdfb-2688-47c1-a386-3b48116e5fd2-0008c15d",
   "category": "Spaces",
   "type": "Room",
+  "level": "Level 1",
   "name": "CH/PH Stock 1",
   "children": [
     {

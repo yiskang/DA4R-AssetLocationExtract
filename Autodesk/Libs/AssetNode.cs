@@ -16,35 +16,12 @@
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////
 
-using System;
-
 namespace Autodesk.Forge.Libs
 {
-    /// <summary>
-    /// Location
-    /// </summary>
-    public class LocationNode
+    public class AssetNode : LocationNode
     {
-        public LocationNode()
+        public AssetNode() : base()
         {
-            this.Id = Guid.NewGuid().ToString();
         }
-
-        /// <summary>
-        /// Node id
-        /// </summary>
-        public string Id { get; set; }
-        /// <summary>
-        /// Node Category
-        /// </summary>
-        public string Category { get; set; }
-        /// <summary>
-        /// Node Type
-        /// </summary>
-        public string Type { get; set; }
-        /// <summary>
-        /// Node name
-        /// </summary>
-        public string Name { get; set; }
     }
 }

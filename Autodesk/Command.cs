@@ -103,10 +103,12 @@ namespace Autodesk.Forge
 
                 foreach (Room room in rooms)
                 {
-                    var roomNode = new LocationNode()
+                    Level roomLevel = doc.GetElement(room.LevelId) as Level;
+                    var roomNode = new SpaceNode()
                     {
                         Id = room.UniqueId,
                         Name = room.Name,
+                        Level = roomLevel?.Name ?? "Unknown",
                         Category = "Spaces",
                         Type = "Room"
                     };
@@ -116,7 +118,7 @@ namespace Autodesk.Forge
                     var intersection = this.FindIntersetedElementsByRoom(room, doc);
                     LogTrace($"... {intersection.Count} assets found...");
 
-                    var assetNodes = intersection.Select(asset => new LocationNode()
+                    var assetNodes = intersection.Select(asset => new AssetNode()
                     {
                         Id = asset.UniqueId,
                         Name = asset.Name,
