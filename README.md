@@ -24,50 +24,43 @@ This addin will extract MEP elements basic info by where the room they belong to
       "id": "e16114b1-3e00-4772-899a-854cadacc959-0006dd81",
       "category": "Assets",
       "type": "Lighting Devices",
-      "name": "Passive Infrared - 277 V",
-      "children": []
+      "name": "Passive Infrared - 277 V"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-00071729",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-00071765",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-000717c2",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-000717f2",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-0007188c",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     },
     {
       "id": "4403b060-3f13-475e-a17a-0a0bc88cc65c-000718ac",
       "category": "Assets",
       "type": "Electrical Fixtures",
-      "name": "Standard",
-      "children": []
+      "name": "Standard"
     }
   ]
 }
